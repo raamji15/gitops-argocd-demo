@@ -27,7 +27,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: dashboard
-          image: gitops-demo-dashboard:v1.0.0
+          image: gitops-demo-dashboard:v2.0.0
           imagePullPolicy: Never
           ports:
             - name: http
